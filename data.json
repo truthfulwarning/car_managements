@@ -1,0 +1,56 @@
+{
+    "cars": [
+        {"id": 1, "make": "Toyota", "model": "Corolla", "year": 2022, "price": 25000},
+        {"id": 2, "make": "Honda", "model": "Civic", "year": 2023, "price": 27000},
+        {"id": 3, "make": "Ford", "model": "Mustang", "year": 2021, "price": 40000},
+        {"id": 4, "make": "BMW", "model": "X5", "year": 2023, "price": 60000},
+        {"id": 5, "make": "Mercedes", "model": "C-Class", "year": 2022, "price": 55000},
+        {"id": 6, "make": "Audi", "model": "A4", "year": 2023, "price": 42000},
+        {"id": 7, "make": "Nissan", "model": "Altima", "year": 2021, "price": 28000}
+    ],
+    "manufacturers": [
+        {"id": 1, "name": "Toyota"},
+        {"id": 2, "name": "Honda"},
+        {"id": 3, "name": "Ford"},
+        {"id": 4, "name": "BMW"},
+        {"id": 5, "name": "Mercedes"},
+        {"id": 6, "name": "Audi"},
+        {"id": 7, "name": "Nissan"}
+    ],
+    "models": [
+        {"id": 1, "manufacturer_id": 1, "name": "Corolla"},
+        {"id": 2, "manufacturer_id": 2, "name": "Civic"},
+        {"id": 3, "manufacturer_id": 3, "name": "Mustang"},
+        {"id": 4, "manufacturer_id": 4, "name": "X5"},
+        {"id": 5, "manufacturer_id": 5, "name": "C-Class"},
+        {"id": 6, "manufacturer_id": 6, "name": "A4"},
+        {"id": 7, "manufacturer_id": 7, "name": "Altima"}
+    ],
+    "customers": [
+        {"id": 1, "name": "Joel Kurivilla", "email": "joel@gmail.com"},
+        {"id": 2, "name": "Allen Shibu", "email": "allen@gmail.com"},
+        {"id": 3, "name": "Mathews Mathew", "email": "mathew@gmail.com"},
+        {"id": 4, "name": "Rosh R", "email": "rosh@gmail.com"},
+        {"id": 5, "name": "Anish Pillai", "email": "anish@gmail.com"},
+        {"id": 6, "name": "Ryan Chacko", "email": "chacko@gmail.com"},
+        {"id": 7, "name": "Danish Khan", "email": "khan@gmail.com"}
+    ],
+    "orders": [
+        {"id": 1, "customer_id": 1, "car_id": 2, "status": "Completed"},
+        {"id": 2, "customer_id": 2, "car_id": 1, "status": "Pending"},
+        {"id": 3, "customer_id": 3, "car_id": 3, "status": "Completed"},
+        {"id": 4, "customer_id": 4, "car_id": 5, "status": "Pending"},
+        {"id": 5, "customer_id": 5, "car_id": 4, "status": "Completed"},
+        {"id": 6, "customer_id": 6, "car_id": 7, "status": "Shipped"},
+        {"id": 7, "customer_id": 7, "car_id": 6, "status": "Pending"}
+    ],
+    "sales": [
+        {"id": 1, "customer_id": 1, "car_id": 2, "amount": 27000},
+        {"id": 2, "customer_id": 2, "car_id": 1, "amount": 25000},
+        {"id": 3, "customer_id": 3, "car_id": 3, "amount": 40000},
+        {"id": 4, "customer_id": 4, "car_id": 5, "amount": 55000},
+        {"id": 5, "customer_id": 5, "car_id": 4, "amount": 60000},
+        {"id": 6, "customer_id": 6, "car_id": 7, "amount": 28000},
+        {"id": 7, "customer_id": 7, "car_id": 6, "amount": 42000}
+    ]
+}
